@@ -1,0 +1,38 @@
+@keyframes border {
+    0% {
+        border-radius: 30% 70% 50% 50%;
+        box-shadow: 5px 5px 12px  #FBD144 ;
+    }
+    25% {
+        border-radius: 75% 45% 55% 25%;
+    }
+    50% {
+        border-radius: 55% 25% 75% 45%;
+        box-shadow: -5px -5px 12px  #FBD144 ;
+    }
+    75% {
+        border-radius: 60% 70% 30% 40%;
+    }
+}
+.skills__icon{
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 2px #FBD144 solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30% 70% 50% 50%;
+    box-shadow: 5px 5px 12px  #FBD144 ;
+    animation: border 5s infinite;
+}
+
+@media screen and (max-width: 600px) {
+    .skills__icon{
+        width: 65px;
+        height: 65px;
+    }
+    
+}

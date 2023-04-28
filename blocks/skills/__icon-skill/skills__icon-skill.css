@@ -1,0 +1,13 @@
+.skills__icon-skill{
+    margin: 0;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+}
+@media screen and (max-width: 600px) {
+    .skills__icon-skill{
+        width: 30px;
+        height: 30px;
+    }
+    
+}

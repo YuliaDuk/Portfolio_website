@@ -1,0 +1,11 @@
+.profile__photo{
+    margin: 0;
+    padding: 0;
+    width: 215px;
+    height: 215px;
+    object-fit: cover;
+    border-radius: 50%;
+    outline: #FBD144 3px solid;
+    border: #FFFFFF 5px solid;
+    display: block;
+}

@@ -1,0 +1,17 @@
+@keyframes shake {
+    0% { transform: translate(-1px, 1px) rotate(10deg); }
+    33% { transform: translate(-1px, -1px) rotate(-10deg); }
+    66% { transform: translate(1px, 1px) rotate(10deg); }
+    100% { transform: translate(-1px, 1px) rotate(-10deg); }
+  }
+.profile__link{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    height: 100%;
+    transform:  rotate(15deg);
+}
+.profile__link:hover{
+    cursor: pointer;
+    animation: shake .1s infinite alternate;;
+}

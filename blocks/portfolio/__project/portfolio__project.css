@@ -1,0 +1,15 @@
+.portfolio__project{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.portfolio__project:hover button {
+    opacity: 1;
+    
+}
+.portfolio__project:hover .portfolio__pic{
+    filter: blur(5px); 
+}

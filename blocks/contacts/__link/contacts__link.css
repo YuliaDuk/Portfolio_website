@@ -1,0 +1,12 @@
+.contacts__link{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    display: inline-block;
+    transition: transform .7s;
+   
+}
+.contacts__link:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}

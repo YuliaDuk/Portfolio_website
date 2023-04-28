@@ -1,0 +1,15 @@
+.skills__icon-text{
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #3D3D3D;
+    text-align: center;
+}
+@media screen and (max-width: 600px) {
+    .skills__icon-text{
+        font-size: 12px;
+    }
+    
+}

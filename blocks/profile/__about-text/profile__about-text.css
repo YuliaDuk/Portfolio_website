@@ -1,0 +1,15 @@
+.profile__about-text{
+    margin: 0px;
+    padding: 30px 0 0 0;
+    color: #3D3D3D;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 33px;
+    text-align: justify;
+    width: 100%;
+}
+@media screen and (max-width: 550px) {
+    .profile__about-text{
+        line-height: 25px;
+    }
+}

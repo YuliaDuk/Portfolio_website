@@ -1,0 +1,19 @@
+.portfolio__button{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: .5s;
+    border: none;
+    border-radius: 10px;
+    background-color: #FBD144;
+    color: #3D3D3D;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 33px;
+    text-transform: uppercase;
+}
+.portfolio__button:hover{
+    cursor: pointer;
+}

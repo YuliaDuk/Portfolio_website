@@ -1,0 +1,18 @@
+.buttons{
+    margin: 50px auto 0 auto;
+    padding: 0;
+    max-width: 600px;
+    width: 90%;
+    height: 80px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+@media screen and (max-width: 600px) {
+    .buttons{
+        margin-top: 15px;
+    }
+    
+}

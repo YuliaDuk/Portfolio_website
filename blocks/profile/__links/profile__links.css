@@ -1,0 +1,8 @@
+.profile__links{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    height: 36px;
+   justify-content: space-between;
+}
