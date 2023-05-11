@@ -9,7 +9,6 @@
     padding: 0;
     text-decoration: none;
     height: 100%;
-    transform:  rotate(15deg);
 }
 .profile__link:hover{
     cursor: pointer;
